@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
     line-height:0.8;
+  
 }
 .container{
     width: 1240px;
@@ -105,8 +106,43 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* banner part end */
 
-/* header part start */
-/* header part end */
+/* rooms part start */
+#roomsPart{
+    padding-top: 65px;
+    padding: bottom 70px;
+}
+.commonTitle{
+    text-align: center;
+}
+.commonTitle h3{
+    font-weight: 700px;
+    font-size: 40px;
+    color: #333333;
+    padding-bottom: 20px;
+}
+.commonTitle p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #666666;
+}
+.roomsFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.room{
+    width: 32%;
+}
+.room img{
+    width: 100%;
+}
+.room h4{
+    font-weight: 500px;
+    font-size: 20px;
+    color: #333333;
+   text-align: center;
+}
+/* rooms part end */
 /* header part start */
 /* header part end */
 /* header part start */
